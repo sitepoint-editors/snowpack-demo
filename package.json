@@ -1,0 +1,21 @@
+{
+  "name": "playing-with-snow-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@snowpack/plugin-webpack": "^2.3.0",
+    "snowpack": "^3.0.11"
+  },
+  "dependencies": {
+    "preact": "^10.5.12"
+  },
+  "browserslist": ">0.75%, not ie 11"
+}
